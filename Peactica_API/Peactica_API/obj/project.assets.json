@@ -4483,11 +4483,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProyectosVS\\PrograAvanzada\\Practica1\\Peactica_API\\Peactica_API\\Practica_API.csproj",
+      "projectUniqueName": "D:\\ProyectosVS\\PrograAvanzada\\Practica1\\Practica1\\Peactica_API\\Peactica_API\\Practica_API.csproj",
       "projectName": "Practica_API",
-      "projectPath": "D:\\ProyectosVS\\PrograAvanzada\\Practica1\\Peactica_API\\Peactica_API\\Practica_API.csproj",
+      "projectPath": "D:\\ProyectosVS\\PrograAvanzada\\Practica1\\Practica1\\Peactica_API\\Peactica_API\\Practica_API.csproj",
       "packagesPath": "C:\\Users\\mija2\\.nuget\\packages\\",
-      "outputPath": "D:\\ProyectosVS\\PrograAvanzada\\Practica1\\Peactica_API\\Peactica_API\\obj\\",
+      "outputPath": "D:\\ProyectosVS\\PrograAvanzada\\Practica1\\Practica1\\Peactica_API\\Peactica_API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

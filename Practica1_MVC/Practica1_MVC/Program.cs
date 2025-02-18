@@ -1,6 +1,13 @@
+using Practica1_MVC.Controllers;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddControllersWithViews();
+
+// Registrar ApiClient como un servicio
+builder.Services.AddHttpClient<ApiClient>();
+// Otros servicios
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

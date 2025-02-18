@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Practica1_MVC",
+    "\\Practica1_MVC\\Practica1_MVC",
+    "\\Practica1_MVC\\Practica1_MVC\\Views",
+    "\\Practica1_MVC\\Practica1_MVC\\Views\\Restaurantes"
   ],
+  "SelectedNode": "\\Practica1_MVC\\Practica1_MVC\\Views\\Restaurantes\\View.cshtml",
   "PreviewInSolutionExplorer": false
 }

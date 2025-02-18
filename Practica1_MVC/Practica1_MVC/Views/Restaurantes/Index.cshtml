@@ -1,5 +1,6 @@
 ﻿@model IEnumerable<Practica1_MVC.Models.Restaurantes>
 
+
 @{
     ViewData["Title"] = "Listado de Restaurantes";
 }
@@ -70,9 +71,8 @@ else{
                         @Html.DisplayFor(modelItem => item.DireccionExacta)
                     </td>
                     <td>
-                        @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                        @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                        @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                        <a asp-action="Editar" asp-route-id="@item.Id">Editar</a> |
+                        <a asp-action="Eliminar" asp-route-id="@item.Id">Eliminar</a>
                     </td>
                 </tr>
             }

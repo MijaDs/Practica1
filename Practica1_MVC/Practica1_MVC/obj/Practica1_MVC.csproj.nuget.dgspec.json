@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProyectosVS\\PrograAvanzada\\Practica1\\Practica1_MVC\\Practica1_MVC\\Practica1_MVC.csproj": {}
+    "D:\\ProyectosVS\\PrograAvanzada\\Practica1\\Practica1\\Practica1_MVC\\Practica1_MVC\\Practica1_MVC.csproj": {}
   },
   "projects": {
-    "D:\\ProyectosVS\\PrograAvanzada\\Practica1\\Practica1_MVC\\Practica1_MVC\\Practica1_MVC.csproj": {
+    "D:\\ProyectosVS\\PrograAvanzada\\Practica1\\Practica1\\Practica1_MVC\\Practica1_MVC\\Practica1_MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProyectosVS\\PrograAvanzada\\Practica1\\Practica1_MVC\\Practica1_MVC\\Practica1_MVC.csproj",
+        "projectUniqueName": "D:\\ProyectosVS\\PrograAvanzada\\Practica1\\Practica1\\Practica1_MVC\\Practica1_MVC\\Practica1_MVC.csproj",
         "projectName": "Practica1_MVC",
-        "projectPath": "D:\\ProyectosVS\\PrograAvanzada\\Practica1\\Practica1_MVC\\Practica1_MVC\\Practica1_MVC.csproj",
+        "projectPath": "D:\\ProyectosVS\\PrograAvanzada\\Practica1\\Practica1\\Practica1_MVC\\Practica1_MVC\\Practica1_MVC.csproj",
         "packagesPath": "C:\\Users\\mija2\\.nuget\\packages\\",
-        "outputPath": "D:\\ProyectosVS\\PrograAvanzada\\Practica1\\Practica1_MVC\\Practica1_MVC\\obj\\",
+        "outputPath": "D:\\ProyectosVS\\PrograAvanzada\\Practica1\\Practica1\\Practica1_MVC\\Practica1_MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

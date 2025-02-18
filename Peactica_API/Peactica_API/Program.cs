@@ -1,4 +1,5 @@
 
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Peactica_API.Models;
@@ -91,14 +92,14 @@ app.MapGet("/api/Restaurantes/{id}", async (int id, Practica1Context context) =>
 });
 
 //Modifica un restaurante  por Id si las entradas son nulas las deja igual 
-app.MapPut("/api/ActualizarRestaurante", async (int id, Restaurantes restaurante, Practica1Context context) =>
+app.MapPut("/api/ActualizarRestaurante", async ([FromQuery] int id, Restaurantes restaurante, Practica1Context context) =>
 {
     var dbRestaurante = await context.Restaurantes.FindAsync(id);
 
     if (dbRestaurante == null)
         return Results.NotFound("Restaurante no encontrado");
 
-    // Solo actualizar los campos proporcionados (los que no sean nulos o vacíos)
+    // Actualizar solo los campos proporcionados
     if (!string.IsNullOrEmpty(restaurante.Nombre))
         dbRestaurante.Nombre = restaurante.Nombre;
 
@@ -114,11 +115,11 @@ app.MapPut("/api/ActualizarRestaurante", async (int id, Restaurantes restaurante
     if (!string.IsNullOrEmpty(restaurante.Distrito))
         dbRestaurante.Distrito = restaurante.Distrito;
 
-    // Guardar cambios en la base de datos
     await context.SaveChangesAsync();
-
     return Results.Ok(dbRestaurante);
 });
+
+
 
 //Elimina un restaurante por Id
 app.MapDelete("/api/EliminarRestaurante/{id:int:min(1):max(100)}", async (int id, Practica1Context context) =>
